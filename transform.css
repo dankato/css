@@ -1,0 +1,24 @@
+/*Transform*/
+
+/*let you move, warp, rotate and scale elements or simply more something around*/
+
+p {
+  width: 50px;
+  height: 50px;
+  background-color: green;
+}
+
+p.move-right {
+  background-color: blue;
+  transform: translateX(100px);
+}
+
+p.move-down {
+  background-color: blue;
+  transform: translateY(20px);
+}
+
+p:hover {
+  transform: translate(20px, 20px);
+}
+
