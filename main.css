@@ -1,17 +1,23 @@
 /*CSS Animations*/
 
+/*body {
+  background-color: gray;
+}*/
+
 /*Hover*/
 
-h1:hover {
-  background-color: pink;
+h2:hover {
+  background-color: red;
+  color: white;
 }
 
-div:hover {
-  background: purple;
+p:hover {
+  background-color: purple;
+  color: white;
 }
 
 /*Focus*/
-/*triggers when an element 'receives focus' or focused on that input. To see focus, tab over to the item*/
+/*triggers when an element 'receives focus' or focused on that input. To see focus, tab over to the item (persist action)*/
 input:focus {
   background-color: red;
 }
@@ -19,4 +25,17 @@ input:focus {
 button:focus {
   border-radius: 10px;
   background-color: red;
+  color: white;
+}
+
+/*Active*/
+/*triggers when an element is being activated by the user (does not persist)*/
+button:active {
+  background-color: orange;
+  font-size: 30px;
+}
+
+h1:active,
+p:active {
+  color: yellow;
 }
