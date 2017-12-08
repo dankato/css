@@ -11,3 +11,12 @@ div:hover {
 }
 
 /*Focus*/
+/*triggers when an element 'receives focus' or focused on that input. To see focus, tab over to the item*/
+input:focus {
+  background-color: red;
+}
+
+button:focus {
+  border-radius: 10px;
+  background-color: red;
+}
