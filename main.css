@@ -1,0 +1,13 @@
+/*CSS Animations*/
+
+/*Hover*/
+
+h1:hover {
+  background-color: pink;
+}
+
+div:hover {
+  background: purple;
+}
+
+/*Focus*/
