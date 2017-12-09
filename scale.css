@@ -1,0 +1,17 @@
+/*Scale*/
+
+/*Alter the size of an element*/
+
+p {
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  color: white;
+  border: 2px solid black;
+}
+
+.transformed {
+  background-color: blue;
+  transform: scale(2);
+  transform-origin: left top;
+}
