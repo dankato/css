@@ -1,0 +1,15 @@
+/*Rotations*/
+
+p {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  color: white;
+  border: 2px solid black;
+}
+
+.transformed {
+  background-color: pink;
+  transform: rotate(45deg)scale(0.5);
+  transform-origin: right bottom;
+}
